@@ -1,0 +1,26 @@
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_setup.py:_flush():69] setting env: {'silent': 'true'}
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_setup.py:_flush():69] [34m[1mwandb[0m: Currently logged in as: [33mjessicamarycooper[0m (use `wandb login --relogin` to force relogin)
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_init.py:_log_setup():337] Logging user logs to /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/logs/debug.log
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_init.py:_log_setup():338] Logging internal logs to /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/logs/debug-internal.log
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_init.py:init():370] calling init triggers
+2021-09-01 17:30:08,712 INFO    MainThread:76266 [wandb_init.py:init():377] wandb.init called with sweep_config: {}
+config: {'batch_size': 1000, 'epochs': 3, 'lr': 0.1, 'save_freq': 100, 'train': False, 'load': '', 'note': '', 'cuda': False, 'apl': True}
+2021-09-01 17:30:08,713 INFO    MainThread:76266 [wandb_init.py:init():419] starting backend
+2021-09-01 17:30:08,713 INFO    MainThread:76266 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-09-01 17:30:08,729 INFO    MainThread:76266 [backend.py:ensure_launched():135] starting backend process...
+2021-09-01 17:30:08,744 INFO    MainThread:76266 [backend.py:ensure_launched():140] started backend process with pid: 76278
+2021-09-01 17:30:08,750 INFO    MainThread:76266 [wandb_init.py:init():424] backend started and connected
+2021-09-01 17:30:08,760 INFO    MainThread:76266 [wandb_init.py:init():472] updated telemetry
+2021-09-01 17:30:08,761 INFO    MainThread:76266 [wandb_init.py:init():491] communicating current version
+2021-09-01 17:30:10,874 INFO    MainThread:76266 [wandb_init.py:init():496] got version response upgrade_message: "wandb version 0.12.1 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2021-09-01 17:30:10,875 INFO    MainThread:76266 [wandb_init.py:init():504] communicating run to backend with 30 second timeout
+2021-09-01 17:30:11,403 INFO    MainThread:76266 [wandb_init.py:init():529] starting run threads in backend
+2021-09-01 17:30:16,407 INFO    MainThread:76266 [wandb_run.py:_console_start():1624] atexit reg
+2021-09-01 17:30:16,408 INFO    MainThread:76266 [wandb_run.py:_redirect():1498] redirect: SettingsConsole.REDIRECT
+2021-09-01 17:30:16,410 INFO    MainThread:76266 [wandb_run.py:_redirect():1503] Redirecting console.
+2021-09-01 17:30:16,413 INFO    MainThread:76266 [wandb_run.py:_redirect():1559] Redirects installed.
+2021-09-01 17:30:16,413 INFO    MainThread:76266 [wandb_init.py:init():554] run started, returning control to user process
+2021-09-01 17:30:28,860 INFO    MainThread:76266 [wandb_run.py:_atexit_cleanup():1594] got exitcode: 255
+2021-09-01 17:30:28,861 INFO    MainThread:76266 [wandb_run.py:_restore():1566] restore

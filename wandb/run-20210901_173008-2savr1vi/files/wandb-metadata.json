@@ -1,0 +1,22 @@
+{
+    "os": "Darwin-17.7.0-x86_64-i386-64bit",
+    "python": "3.6.10",
+    "heartbeatAt": "2021-09-01T14:30:14.599256",
+    "startedAt": "2021-09-01T14:30:08.707188",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "run_apl.py",
+    "codePath": "run_apl.py",
+    "git": {
+        "remote": "https://github.com/jessicamarycooper/intrinsically_interpretable_training_protocol.git",
+        "commit": "64a83313ae05e7051018f3e8d78cc36c59f38bc0"
+    },
+    "email": "<jessica@jmcooper.net>",
+    "root": "/Users/JMCooper/PycharmProjects/Research/APL",
+    "host": "Jessicas-MacBook-Pro-2.local",
+    "username": "JMCooper",
+    "executable": "/anaconda/bin/python"
+}

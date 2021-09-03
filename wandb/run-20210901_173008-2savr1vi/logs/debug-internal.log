@@ -1,0 +1,61 @@
+2021-09-01 17:30:10,101 INFO    MainThread:76278 [internal.py:wandb_internal():91] W&B internal server running at pid: 76278, started at: 2021-09-01 17:30:10.100695
+2021-09-01 17:30:10,103 INFO    WriterThread:76278 [datastore.py:open_for_write():80] open: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/run-2savr1vi.wandb
+2021-09-01 17:30:10,104 DEBUG   HandlerThread:76278 [handler.py:handle_request():124] handle_request: check_version
+2021-09-01 17:30:10,107 DEBUG   SenderThread:76278 [sender.py:send():179] send: header
+2021-09-01 17:30:10,107 DEBUG   SenderThread:76278 [sender.py:send_request():193] send_request: check_version
+2021-09-01 17:30:10,877 DEBUG   SenderThread:76278 [sender.py:send():179] send: run
+2021-09-01 17:30:11,402 INFO    SenderThread:76278 [dir_watcher.py:__init__():168] watching files in: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files
+2021-09-01 17:30:11,402 INFO    SenderThread:76278 [sender.py:_start_run_threads():707] run started: 2savr1vi with start time 1630506608
+2021-09-01 17:30:11,402 DEBUG   SenderThread:76278 [sender.py:send():179] send: summary
+2021-09-01 17:30:11,403 INFO    SenderThread:76278 [sender.py:_save_file():829] saving file wandb-summary.json with policy end
+2021-09-01 17:30:11,403 DEBUG   HandlerThread:76278 [handler.py:handle_request():124] handle_request: run_start
+2021-09-01 17:30:12,407 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/wandb-summary.json
+2021-09-01 17:30:14,598 DEBUG   HandlerThread:76278 [meta.py:__init__():39] meta init
+2021-09-01 17:30:14,599 DEBUG   HandlerThread:76278 [meta.py:__init__():53] meta init done
+2021-09-01 17:30:14,599 DEBUG   HandlerThread:76278 [meta.py:probe():210] probe
+2021-09-01 17:30:14,600 DEBUG   HandlerThread:76278 [meta.py:_setup_git():200] setup git
+2021-09-01 17:30:14,638 DEBUG   HandlerThread:76278 [meta.py:_setup_git():207] setup git done
+2021-09-01 17:30:14,639 DEBUG   HandlerThread:76278 [meta.py:_save_code():89] save code
+2021-09-01 17:30:14,654 DEBUG   HandlerThread:76278 [meta.py:_save_code():110] save code done
+2021-09-01 17:30:14,656 DEBUG   HandlerThread:76278 [meta.py:_save_patches():127] save patches
+2021-09-01 17:30:14,742 DEBUG   HandlerThread:76278 [meta.py:_save_patches():169] save patches done
+2021-09-01 17:30:14,743 DEBUG   HandlerThread:76278 [meta.py:_save_pip():57] save pip
+2021-09-01 17:30:14,744 DEBUG   HandlerThread:76278 [meta.py:_save_pip():71] save pip done
+2021-09-01 17:30:14,744 DEBUG   HandlerThread:76278 [meta.py:_save_conda():78] save conda
+2021-09-01 17:30:15,427 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/code/run_apl.py
+2021-09-01 17:30:15,428 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/requirements.txt
+2021-09-01 17:30:15,429 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/conda-environment.yaml
+2021-09-01 17:30:15,429 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/code
+2021-09-01 17:30:16,432 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/output.log
+2021-09-01 17:30:18,438 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/output.log
+2021-09-01 17:30:23,320 DEBUG   HandlerThread:76278 [meta.py:_save_conda():86] save conda done
+2021-09-01 17:30:23,321 DEBUG   HandlerThread:76278 [meta.py:probe():252] probe done
+2021-09-01 17:30:23,337 DEBUG   HandlerThread:76278 [handler.py:handle_request():124] handle_request: stop_status
+2021-09-01 17:30:23,337 DEBUG   SenderThread:76278 [sender.py:send_request():193] send_request: stop_status
+2021-09-01 17:30:23,452 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_modified():229] file/dir modified: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/conda-environment.yaml
+2021-09-01 17:30:23,453 INFO    Thread-8  :76278 [dir_watcher.py:_on_file_created():216] file/dir created: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/wandb-metadata.json
+2021-09-01 17:30:28,852 WARNING MainThread:76278 [internal.py:wandb_internal():147] Internal process interrupt: 1
+2021-09-01 17:30:29,362 WARNING MainThread:76278 [internal.py:wandb_internal():147] Internal process interrupt: 2
+2021-09-01 17:30:29,362 ERROR   MainThread:76278 [internal.py:wandb_internal():150] Internal process interrupted.
+2021-09-01 17:30:30,361 INFO    WriterThread:76278 [datastore.py:close():288] close: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/run-2savr1vi.wandb
+2021-09-01 17:30:30,361 INFO    HandlerThread:76278 [handler.py:finish():638] shutting down handler
+2021-09-01 17:30:55,658 INFO    SenderThread:76278 [sender.py:finish():933] shutting down sender
+2021-09-01 17:30:55,659 INFO    SenderThread:76278 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-09-01 17:30:56,540 INFO    SenderThread:76278 [dir_watcher.py:finish():312] scan: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files
+2021-09-01 17:30:56,541 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/requirements.txt requirements.txt
+2021-09-01 17:30:56,541 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/output.log output.log
+2021-09-01 17:30:56,547 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/config.yaml config.yaml
+2021-09-01 17:30:56,548 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/wandb-summary.json wandb-summary.json
+2021-09-01 17:30:56,549 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/conda-environment.yaml conda-environment.yaml
+2021-09-01 17:30:56,549 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/wandb-metadata.json wandb-metadata.json
+2021-09-01 17:30:56,588 INFO    SenderThread:76278 [dir_watcher.py:finish():318] scan save: /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/code/run_apl.py code/run_apl.py
+2021-09-01 17:30:56,589 INFO    SenderThread:76278 [file_pusher.py:finish():176] shutting down file pusher
+2021-09-01 17:30:56,589 INFO    SenderThread:76278 [file_pusher.py:join():181] waiting for file pusher
+2021-09-01 17:31:01,577 INFO    Thread-16 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/wandb-metadata.json
+2021-09-01 17:31:01,615 INFO    Thread-14 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/wandb-summary.json
+2021-09-01 17:31:01,628 INFO    Thread-12 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/output.log
+2021-09-01 17:31:01,631 INFO    Thread-13 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/config.yaml
+2021-09-01 17:31:01,742 INFO    Thread-15 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/conda-environment.yaml
+2021-09-01 17:31:01,746 INFO    Thread-11 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/requirements.txt
+2021-09-01 17:31:01,796 INFO    Thread-17 :76278 [upload_job.py:push():133] Uploaded file /Users/JMCooper/PycharmProjects/Research/APL/wandb/run-20210901_173008-2savr1vi/files/code/run_apl.py
+2021-09-01 17:31:02,629 INFO    MainThread:76278 [internal.py:handle_exit():78] Internal process exited
